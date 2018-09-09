@@ -2,13 +2,45 @@ h1 {
   border-style: groove;
   border-width: inherit;
   text-align: center;
-  padding: 10px;
+  padding: 60px;
   background-color: navajowhite;
   color: snow;
   border-color: snow;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 80px;
 }
+
+body{
+  font-family: Georgia, "Times New Roman",
+          Times, serif;
+  padding-left: 20em;
+  color: cadetblue;
+  background-color: antiquewhite;
+}
+
+p{
+  color:burlywood;
+}
+
 ul {
   color: grey;
 }
+
+ul.navbar {
+    position: absolute;
+    top: 12em;
+    left: 6em;
+    width: 12em;
+}
+
+ul.navbar li {
+  background: white;
+  margin: 0.3em 0;
+  padding: 1.6em;
+  border-right: 0.3em solid grey }
+ul.navbar a {
+  text-decoration: none}
+a:link {
+  color: grey }
+a:visited {
+  color: antiquewhite }
