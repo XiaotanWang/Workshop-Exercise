@@ -7,7 +7,7 @@ h1 {
   color: snow;
   border-color: snow;
   margin-top: 200px;
-  margin-bottom: 80px;
+  margin-bottom: 25px;
 }
 
 body{
@@ -27,16 +27,16 @@ ul {
 }
 
 ul.navbar {
-    position: absolute;
-    top: 12em;
-    left: 6em;
-    width: 12em;
+  position: absolute;
+  top: 14em;
+  left: 6em;
+  width: 12em;
 }
 
 ul.navbar li {
   background: white;
   margin: 0.3em 0;
-  padding: 1.6em;
+  padding: 1em;
   border-right: 0.3em solid grey }
 ul.navbar a {
   text-decoration: none}
@@ -44,3 +44,9 @@ a:link {
   color: grey }
 a:visited {
   color: antiquewhite }
+
+#special_address{
+  padding-left: 50em;
+  padding-top: 0em;
+  color: gray;
+}
