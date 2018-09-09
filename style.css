@@ -27,13 +27,15 @@ ul {
 }
 
 ul.navbar {
-  position: absolute;
-  top: 14em;
+  position: fixed;
+  top: 13em;
   left: 6em;
   width: 12em;
 }
 
 ul.navbar li {
+  font-family: Georgia, "Times New Roman",
+          Times, serif;
   background: white;
   margin: 0.3em 0;
   padding: 1em;
